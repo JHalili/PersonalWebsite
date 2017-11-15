@@ -1,0 +1,10 @@
+/home/joana/Projects/ClassMate/bin/Debug/netcoreapp2.0/ClassMate.deps.json
+/home/joana/Projects/ClassMate/bin/Debug/netcoreapp2.0/ClassMate.runtimeconfig.json
+/home/joana/Projects/ClassMate/bin/Debug/netcoreapp2.0/ClassMate.runtimeconfig.dev.json
+/home/joana/Projects/ClassMate/bin/Debug/netcoreapp2.0/ClassMate.dll
+/home/joana/Projects/ClassMate/bin/Debug/netcoreapp2.0/ClassMate.pdb
+/home/joana/Projects/ClassMate/obj/Debug/netcoreapp2.0/ClassMate.csproj.CoreCompileInputs.cache
+/home/joana/Projects/ClassMate/obj/Debug/netcoreapp2.0/ClassMate.AssemblyInfoInputs.cache
+/home/joana/Projects/ClassMate/obj/Debug/netcoreapp2.0/ClassMate.AssemblyInfo.cs
+/home/joana/Projects/ClassMate/obj/Debug/netcoreapp2.0/ClassMate.dll
+/home/joana/Projects/ClassMate/obj/Debug/netcoreapp2.0/ClassMate.pdb
