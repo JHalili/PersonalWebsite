@@ -1,6 +1,48 @@
 ﻿@{
     ViewData["Title"] = "Curiculum Vitae";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
 
+@section contactCSS {
+    <link href="~/css/contact.css" rel="stylesheet" type="text/css" />
+}
+
+<h1>Get in Touch</h1>
+
+<div class="row">
+    <div id="myContactsForm" class="col-md-9">
+        <form method="post"   action="@Url.Action("ProcessRequest", "Home")>
+            <div class="form-group">
+                <label for="inputEmail">Your email address:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleEmailSubject">Subject</label>
+                <input type="text" class="form-control" id="exampleEmaiilSubject" placeholder="Email Subject ">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Content</label>
+                <textarea type="text" class="form-control" id="exampleEmailContent" > </textarea>
+            </div>
+             <div class="form-group" align="right">
+               <button type="submit" class="btn btn-primary" >Submit</button>
+            </div>
+            
+        </form>
+
+    </div>
+    <div class="col-md-3">
+        <div class="row">
+            <label class="contacts-label">Email:</label> <br>
+            <p1>johana.halili@gmail.com</p1> 
+        </div>
+        <div class="row">
+            <label class="contacts-label">Phone:</label> <br>
+            <p1>+491783674468</p1> 
+        </div>
+        <div class="row">
+            <label class="contacts-label">LinkedIn:</label> <br>
+            <a href="www.linkedin.com/in/joana-halili">My LinkedIn profile</a>
+        </div>     
+    </div>
+
+</div>

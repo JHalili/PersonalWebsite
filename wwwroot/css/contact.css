@@ -1,0 +1,13 @@
+.body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.contacts-label{
+    color:tomato;
+    font-size: 20px;
+}
+
+.form-control{
+    padding: 14px;
+}

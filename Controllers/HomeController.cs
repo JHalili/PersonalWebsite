@@ -24,8 +24,7 @@ namespace ClassMate.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
-
+            ViewData["Message"] = "Contact Me:";
             return View();
         }
 
@@ -37,6 +36,11 @@ namespace ClassMate.Controllers
         {
            ViewData["Message"] = "Your Profile Page"; 
            return View();
+        }
+         public IActionResult ProcessRequest()
+        {
+            ViewData["Message"] = "Sending contact email";
+            return View();
         }
     }
     
